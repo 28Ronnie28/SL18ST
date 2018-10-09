@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="894.0" prefWidth="1251.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label styleClass="heading-text" stylesheets="@StudentLiveStyle.css" text="StudentLive" />
+      <Label styleClass="home-text" stylesheets="@StudentLiveStyle.css" text="Home" />
+      <HBox alignment="CENTER" prefHeight="300.0" prefWidth="1251.0">
+         <children>
+            <VBox alignment="CENTER" prefHeight="180.0" prefWidth="320.0">
+               <children>
+                  <Button fx:id="hmClassBtn" mnemonicParsing="false" prefHeight="58.0" prefWidth="59.0" styleClass="home-icon-image-class" stylesheets="@StudentLiveStyle.css" />
+                  <Label styleClass="home-text" stylesheets="@StudentLiveStyle.css" text="Class" />
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="180.0" prefWidth="320.0">
+               <children>
+                  <Button fx:id="hmTimetableBtn" mnemonicParsing="false" prefHeight="58.0" prefWidth="59.0" styleClass="home-icon-image-timetable" stylesheets="@StudentLiveStyle.css" />
+                  <Label styleClass="home-text" stylesheets="@StudentLiveStyle.css" text="Timetable" />
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="180.0" prefWidth="320.0">
+               <children>
+                  <Button fx:id="hmResultsBtn" mnemonicParsing="false" prefHeight="58.0" prefWidth="59.0" styleClass="home-icon-image-results" stylesheets="@StudentLiveStyle.css" />
+                  <Label styleClass="home-text" stylesheets="@StudentLiveStyle.css" text="Results" />
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="180.0" prefWidth="320.0">
+               <children>
+                  <Button fx:id="hmNoticeboardBtn" mnemonicParsing="false" prefHeight="58.0" prefWidth="59.0" styleClass="home-icon-image-noticeboard" stylesheets="@StudentLiveStyle.css" />
+                  <Label styleClass="home-text" stylesheets="@StudentLiveStyle.css" text="Noticeboard" />
+               </children>
+            </VBox>
+         </children>
+         <padding>
+            <Insets left="50.0" top="100.0" />
+         </padding>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="180.0" prefWidth="1251.0">
+         <children>
+            <VBox alignment="CENTER" prefHeight="180.0" prefWidth="320.0">
+               <children>
+                  <Button fx:id="hmContactInfoBtn" mnemonicParsing="false" prefHeight="58.0" prefWidth="59.0" styleClass="home-icon-image-contactinfo" stylesheets="@StudentLiveStyle.css" />
+                  <Label styleClass="home-text" stylesheets="@StudentLiveStyle.css" text="Contact Info" />
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="180.0" prefWidth="320.0">
+               <children>
+                  <Button fx:id="hmImportantDatesBtn" mnemonicParsing="false" prefHeight="58.0" prefWidth="59.0" styleClass="home-icon-image-importantdates" stylesheets="@StudentLiveStyle.css" />
+                  <Label styleClass="home-text" stylesheets="@StudentLiveStyle.css" text="Important Dates" />
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="180.0" prefWidth="320.0">
+               <children>
+                  <Button fx:id="hmAttendanceBtn" mnemonicParsing="false" prefHeight="58.0" prefWidth="59.0" styleClass="home-icon-image-attendance" stylesheets="@StudentLiveStyle.css" />
+                  <Label styleClass="home-text" stylesheets="@StudentLiveStyle.css" text="Attendance" />
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="180.0" prefWidth="320.0">
+               <children>
+                  <Button fx:id="hmAssignmentsBtn" mnemonicParsing="false" prefHeight="58.0" prefWidth="59.0" styleClass="home-icon-image-assignments" stylesheets="@StudentLiveStyle.css" />
+                  <Label styleClass="home-text" stylesheets="@StudentLiveStyle.css" text="Assignments" />
+               </children>
+            </VBox>
+         </children>
+         <padding>
+            <Insets left="50.0" />
+         </padding>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="180.0" prefWidth="1251.0">
+         <children>
+            <VBox alignment="CENTER" prefHeight="180.0" prefWidth="320.0">
+               <children>
+                  <Button fx:id="hmCafeBtn" mnemonicParsing="false" prefHeight="58.0" prefWidth="59.0" styleClass="home-icon-image-cafe" stylesheets="@StudentLiveStyle.css" />
+                  <Label styleClass="home-text" stylesheets="@StudentLiveStyle.css" text="Cafe" />
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="180.0" prefWidth="320.0">
+               <children>
+                  <Button fx:id="hmChatRoomBtn" mnemonicParsing="false" prefHeight="58.0" prefWidth="59.0" styleClass="home-icon-image-chatroom" stylesheets="@StudentLiveStyle.css" />
+                  <Label styleClass="home-text" stylesheets="@StudentLiveStyle.css" text="ChatRoom" />
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="180.0" prefWidth="320.0">
+               <children>
+                  <Button fx:id="hmSettingsBtn" mnemonicParsing="false" prefHeight="58.0" prefWidth="59.0" styleClass="home-icon-image-settings" stylesheets="@StudentLiveStyle.css" />
+                  <Label styleClass="home-text" stylesheets="@StudentLiveStyle.css" text="Settings" />
+               </children>
+            </VBox>
+         </children>
+         <padding>
+            <Insets left="50.0" />
+         </padding>
+      </HBox>
+   </children>
+   <padding>
+      <Insets top="30.0" />
+   </padding>
+</VBox>

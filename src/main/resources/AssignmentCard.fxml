@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="111.0" prefWidth="642.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox alignment="CENTER" prefHeight="111.0" prefWidth="237.0">
+         <children>
+            <Label fx:id="acModuleCodeLbl" style="-fx-font-size: 22; -fx-font-weight: bold;" text="C_ITDA311" />
+            <Label fx:id="acAssignmentNameLbl" style="-fx-font-weight: bold;" text="Project" />
+         </children>
+      </VBox>
+      <VBox alignment="CENTER" prefHeight="111.0" prefWidth="191.0">
+         <children>
+            <Label fx:id="acDueDateLbl" style="-fx-font-weight: bold;" text="Due : 26 October 2018" />
+            <Label fx:id="acSubmittedDateLbl" style="-fx-font-weight: bold;" text="Submitted: 20 September 2018" />
+         </children>
+      </VBox>
+      <HBox alignment="CENTER" prefHeight="111.0" prefWidth="128.0" spacing="10.0">
+         <children>
+            <Button fx:id="acUploadBtn" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" style="-fx-background-image: url(&quot;Upload.png&quot;);" />
+            <Button fx:id="acDownloadBtn" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" style="-fx-background-image: url(&quot;Download.png&quot;);" />
+         </children>
+      </HBox>
+      <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+         <children>
+            <Label style="-fx-font-weight: bold;" text="Result:" />
+            <Label fx:id="acResultLbl" style="-fx-font-weight: bold;" text="No result yet" />
+         </children>
+      </VBox>
+   </children>
+</HBox>

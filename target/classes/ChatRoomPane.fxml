@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+
+<VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="878.0" prefWidth="1147.0" spacing="20.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label styleClass="heading-text" stylesheets="@StudentLiveStyle.css" text="ChatRoom" />
+      <Label styleClass="home-text" stylesheets="@StudentLiveStyle.css" text="Label" />
+      <HBox alignment="CENTER" prefHeight="678.0" prefWidth="1147.0">
+         <children>
+            <VBox alignment="TOP_CENTER" prefHeight="678.0" prefWidth="323.0" spacing="20.0">
+               <children>
+                  <Label styleClass="home-text" stylesheets="@StudentLiveStyle.css" text="Contacts" />
+                  <ListView fx:id="crContactsListView" prefHeight="621.0" prefWidth="361.0" styleClass="files-list-view" stylesheets="@StudentLiveStyle.css" />
+               </children>
+            </VBox>
+            <VBox alignment="BOTTOM_LEFT" prefHeight="200.0" prefWidth="100.0" spacing="10.0">
+               <children>
+                  <Button fx:id="crNewBtn" mnemonicParsing="false" styleClass="chatroom-button" stylesheets="@StudentLiveStyle.css" text="New" />
+                  <Button fx:id="crAddBtn" mnemonicParsing="false" styleClass="chatroom-button" stylesheets="@StudentLiveStyle.css" text="Add" />
+                  <Button fx:id="crLeaveBtn" mnemonicParsing="false" styleClass="chatroom-button" stylesheets="@StudentLiveStyle.css" text="Leave" />
+               </children>
+               <padding>
+                  <Insets bottom="-25.0" left="-20.0" />
+               </padding>
+            </VBox>
+            <VBox alignment="TOP_CENTER" prefHeight="678.0" prefWidth="620.0" spacing="20.0">
+               <children>
+                  <Label styleClass="home-text" stylesheets="@StudentLiveStyle.css" text="Chats" />
+                  <Label fx:id="crChatNameLbl" styleClass="home-text" stylesheets="@StudentLiveStyle.css" text="Example Example" />
+                  <ListView fx:id="crChatListView" prefHeight="530.0" prefWidth="620.0" styleClass="files-list-view" stylesheets="@StudentLiveStyle.css" />
+                  <HBox prefHeight="100.0" prefWidth="200.0" spacing="20.0">
+                     <children>
+                        <TextField fx:id="crMessageTxf" styleClass="chatroom-fields" stylesheets="@StudentLiveStyle.css" />
+                        <Button fx:id="crSendBtn" mnemonicParsing="false" styleClass="chatroom-send-button" stylesheets="@StudentLiveStyle.css" text="Send" />
+                     </children>
+                     <padding>
+                        <Insets top="20.0" />
+                     </padding>
+                  </HBox>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+   </children>
+</VBox>

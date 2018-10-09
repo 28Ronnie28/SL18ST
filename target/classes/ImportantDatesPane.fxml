@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="835.0" prefWidth="1114.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox alignment="TOP_CENTER" prefHeight="814.0" prefWidth="1114.0" spacing="30.0">
+         <children>
+            <Label styleClass="heading-text" stylesheets="@StudentLiveStyle.css" text="Important Dates" />
+            <ListView fx:id="idDatesListview" prefHeight="627.0" prefWidth="914.0" styleClass="files-list-view" stylesheets="@StudentLiveStyle.css">
+               <padding>
+                  <Insets left="50.0" />
+               </padding>
+            </ListView>
+         </children>
+         <padding>
+            <Insets bottom="10.0" left="130.0" right="130.0" top="20.0" />
+         </padding>
+      </VBox>
+   </children>
+</VBox>
